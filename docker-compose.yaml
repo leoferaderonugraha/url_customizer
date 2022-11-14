@@ -15,7 +15,7 @@ services:
     environment:
       - POSTGRES_USER=${POSTGRES_USER}
       - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=url_shortener
+      - POSTGRES_DB=url_customizer
     ports:
       - '5433:5432'
     volumes:
